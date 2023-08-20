@@ -1,0 +1,10 @@
+1. Display welcome message and instructions.
+2. Initialize variable calculateAnother to 'y'.
+3. Repeat the following steps until calculateAnother is 'n':
+    a. Prompt the user to enter the initial investment amount.
+    b. Prompt the user to enter the annual interest rate (as a decimal).
+    c. Prompt the user to enter the number of years for the investment.
+    d. Calculate compound interest using the formula: compoundInterest = initialInvestment * pow((1 + annualInterestRate), numYears) - initialInvestment.
+    e. Display the total value of the investment after the specified number of years, including compound interest.
+    f. Ask the user if they want to calculate another investment (y/n).
+4. Display goodbye message.
